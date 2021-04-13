@@ -1,0 +1,74 @@
+@import "../../Styles/Styles.scss";
+
+.card {
+    margin: 0.5rem;
+    border-radius: 1rem;
+    width: 27rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.125rem solid lightgrey;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card img{
+    width: 70%;
+    border-radius: 50%;
+    padding: 1rem;
+    align-self: center;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 1rem 1rem 1rem;
+    justify-content: center;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.email{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 300;
+}
+
+.gender{
+    display: flex;
+    justify-content: center;
+}
+
+.dob{
+    display: flex;
+    justify-content: center;
+}
+
+.age{
+    display: flex;
+    justify-content: center;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+}
+
+.phone{
+    display: flex;
+    justify-content: center;
+}
+
+@include media-mixin($mobile-breakpoint){
+    .card{
+        width: 21rem;
+    }
+}
+
+

@@ -1,0 +1,64 @@
+@import "../../Styles/Styles.scss";
+
+.headerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem 0 0 0;
+}
+
+.headerText{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 2rem;
+}
+
+.studentsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.filterContainer{
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    max-width: 100rem;
+    padding: 0;
+    background-color: #F5F5F5;
+    margin: 1rem 2rem;
+}
+
+// *:focus {
+//     outline: none;
+//   }
+
+.sortButton{
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+    color: white;
+    background-color: #4C63AA;
+    font-weight: bold;
+    margin: 0.5rem;
+    border: 0 none;
+}
+
+.notFound{
+    font-size: 2rem;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color:$primary-text-color;
+    padding: 1rem;
+}
+
+.menu{
+    font-family: 'Poppins', sans-serif;
+    width: 8rem;
+}
